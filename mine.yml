@@ -4,7 +4,7 @@
   sudo: true
   tasks:
   - name: Add ansible user
-    apt:
+    user:
      name: ansible
      state: present
      generate_ssh_key: true
